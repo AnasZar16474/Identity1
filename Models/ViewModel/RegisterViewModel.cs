@@ -20,6 +20,9 @@ namespace Identity1.Models.ViewModel
         [Required]
         [DataType(DataType.PhoneNumber)]
         public string Phone { get; set; } =null!;
+        public string Gender {  get; set; } = null!;
+        public string Address { get; set; } = null!;
+
 
     }
 }

@@ -6,13 +6,8 @@ namespace Identity1.Models.ViewModel
     {
         [Required]
         public string Name { get; set; } = null!;
-        [EmailAddress]
-        [Required]
-        [Display(Name ="EmailAddress")]
-        public string Email { get; set; } = null!;
         [DataType(DataType.Password)]
-        [Required]
-        
+        [Required]     
         public string Password { get; set; } = null!;
         public bool RememberMe { get; set; }
 
